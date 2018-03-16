@@ -1397,7 +1397,7 @@ table td[class*=col-],table th[class*=col-]{
     overflow-x:auto;
     min-height:.01%
 }
-@media screen and (max-width:2000px){
+@media screen and (max-width:5000px){
     .table-responsive{
         width:100%;
         margin-bottom:18px;
@@ -2837,7 +2837,7 @@ tbody.collapse.in{
     margin-top:4px;
     z-index:1000;
 }
-@media (min-width:2000px){
+@media (min-width:5000px){
     .navbar-toggle{
         display:none
     }
@@ -2850,7 +2850,7 @@ tbody.collapse.in{
     padding-bottom:10px;
     line-height:24px
 }
-@media (max-width:2000px){
+@media (max-width:5000px){
     .navbar-nav .open .dropdown-menu{
         position:static;
         float:none;

@@ -2837,7 +2837,7 @@ tbody.collapse.in{
     margin-top:4px;
     z-index:1000;
 }
-@media (min-width:2000px){
+@media (min-width:5000px){
     .navbar-toggle{
         display:none
     }

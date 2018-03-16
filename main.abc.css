@@ -3119,7 +3119,7 @@ tbody.collapse.in{
     background-color:transparent;
     color:#fff
 }
-@media (max-width:2000px){
+@media (max-width:5000px){
     .navbar-inverse .navbar-nav .open .dropdown-menu>.dropdown-header{
         border-color:transparent
     }
@@ -3625,7 +3625,7 @@ button.close{
 .visible-lg,.visible-lg-block,.visible-lg-inline,.visible-lg-inline-block,.visible-md,.visible-md-block,.visible-md-inline,.visible-md-inline-block,.visible-sm,.visible-sm-block,.visible-sm-inline,.visible-sm-inline-block,.visible-xs,.visible-xs-block,.visible-xs-inline,.visible-xs-inline-block{
     display:none!important
 }
-@media (max-width:2000px){
+@media (max-width:5000px){
     .visible-xs{
         display:block!important
     }
@@ -3639,17 +3639,17 @@ button.close{
         display:table-cell!important
     }
 }
-@media (max-width:2000px){
+@media (max-width:5000px){
     .visible-xs-block{
         display:block!important
     }
 }
-@media (max-width:2000px){
+@media (max-width:5000px){
     .visible-xs-inline{
         display:inline!important
     }
 }
-@media (max-width:2000px){
+@media (max-width:5000px){
     .visible-xs-inline-block{
         display:inline-block!important
     }
@@ -3958,7 +3958,7 @@ main{
 .sidebar.open{
     left:0
 }
-@media (min-width:2000px){
+@media (min-width:5000px){
     .sidebar{
         padding:30px;
         left:0;

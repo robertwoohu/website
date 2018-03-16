@@ -2837,7 +2837,7 @@ tbody.collapse.in{
     margin-top:4px;
     z-index:1000;
 }
-@media (min-width:5000px){
+@media (min-width:2000px){
     .navbar-toggle{
         display:none
     }
@@ -2850,7 +2850,7 @@ tbody.collapse.in{
     padding-bottom:10px;
     line-height:24px
 }
-@media (max-width:5000px){
+@media (max-width:2000px){
     .navbar-nav .open .dropdown-menu{
         position:static;
         float:none;
@@ -2936,7 +2936,7 @@ tbody.collapse.in{
         top:0
     }
 }
-@media (max-width:2000px){
+@media (max-width:5000px){
     .navbar-form .form-group{
         margin-bottom:5px
     }
@@ -3049,7 +3049,7 @@ tbody.collapse.in{
     background-color:transparent;
     color:#555
 }
-@media (max-width:2000px){
+@media (max-width:50000px){
     .navbar-default .navbar-nav .open .dropdown-menu>li>a{
         color:#000
     }

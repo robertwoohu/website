@@ -3,25 +3,28 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="engine1/style.css" />
-  <script type="text/javascript" src="engine1/jquery.js"></script>
   <meta charset="UTF-8">
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
   <meta content="width=device-width,initial-scale=1" name="viewport">
   <meta content="description" name="description">
   <meta name="google" content="notranslate" />
   <meta content="Mashup templates have been developped by Orson.io team" name="author">
+    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+  <link rel="stylesheet" type="text/css" href="engine1/lightbox.css" />
+  <script type="text/javascript" src="engine1/jquery.js"></script>
+  <script type="text/javascript" src="engine1/lightbox.js"></script>
 
   <!-- Disable tap highlight on IE -->
   <meta name="msapplication-tap-highlight" content="no">
   
   <link href="./assets/apple-icon-180x180.png" rel="apple-touch-icon">
-  <link href="./assets/favicon.ico" rel="icon">
+  <link href="favicon.ico" rel="icon">
 
 
 
-  <title>R.Hu Photography</title>  
+  <title>Landscapes</title>  
 
-<link href="./main.82cfd66e.css" rel="stylesheet"></head>
+<link href="./main.landscape.css" rel="stylesheet"></head>
 <body>
 
  <!-- Add your content of header -->
@@ -70,13 +73,12 @@
             <i class="fa fa-twitter"></i>
           </a>
         </p>
-        <p>© Untitled | Website created with <a href="http://www.mashup-template.com/" title="Create website with free html template">Mashup Template</a>/<a href="https://www.unsplash.com/" title="Beautiful Free Images">Unsplash</a></p>
+        <p>Check me out on other platforms! <a href="http://www.mashup-template.com/" title="Create website with free html template">Facebook</a>/<a href="https://www.unsplash.com/" title="Beautiful Free Images">Instagram</a></p>
       </nav>  
     </div> 
   </nav>
 </header>
 <main class="" id="main-collapse">
-
 
 <div class="row">
   <div class="col-xs-12 section-container-spacer">
@@ -131,39 +133,55 @@
   <script type="text/javascript" src="engine1/script.js"></script>
   <!-- End WOWSlider.com BODY section -->
   <hr width="80%">
- <div class="row">
-  <div class="col-xs-12 section-container-spacer">
-   <h1> About <h1>
-   </div>
- </div>
+<div class="hero-full-wrapper">
+  <div class="grid">
+  <div class="gutter-sizer"></div>
+    <div class="grid-sizer"></div>
 
-  <div class="col-xs-12 col-md-3 section-container-spacer">
-    <a href="photos/images/landscape/IMG_4532.jpg" data-lightbox="gallery">
-    <img id="myImg" alt="" src="photos/images/landscape/IMG_4532.jpg"></a>
-    <h2>Springfield Elementary</h2>
-    <p>An abandoned elementary school somewhere in Northern Philadelphia. Incredibly unique view of the city and just fascinating to explore in general!</p>
+    <div class="grid-item">
+      <a href="photos/images/landscape/IMG_4532.jpg" data-lightbox="gallery">
+      <img id="myImg" alt=""src="photos/images/landscape/IMG_4532.jpg"></a>
+    </div>
+
+    <div class="grid-item">
+      <a href="photos/images/landscape/philly-9542.jpg" data-lightbox="gallery">
+      <img id="myImg" alt=""src="photos/images/landscape/philly-9542.jpg"></a>
+    </div>
+  
+    <div class="grid-item">
+      <a href="photos/images/landscape/Places.jpg" data-lightbox="gallery">
+      <img id="myImg" alt=""src="photos/images/landscape/Places.jpg"></a>
+    </div>
+
+    <div class="grid-item">
+      <a href="photos/images/landscape/Night.jpg" data-lightbox="gallery">
+      <img id="myImg" alt=""src="photos/images/landscape/Night.jpg"></a>
+    </div>
+
+    <div class="grid-item">
+      <a href="photos/images/landscape/sunriseedit.jpg" data-lightbox="gallery">
+      <img id="myImg" alt=""src="photos/images/landscape/sunriseedit.jpg"></a>
+    </div>
+
+  <!--<div class="col-xs-12 col-md-3 section-container-spacer">
+    <img class="img-responsive" alt="" src="photos/images/landscape/philly-9542.jpg">
   </div>
 
   <div class="col-xs-12 col-md-3 section-container-spacer">
-    <a href="photos/images/landscape/philly-9542.jpg" data-lightbox="gallery1">
-    <img id="myImg" alt="" src="photos/images/landscape/philly-9542.jpg"></a>
-    <h2>Philadelphia</h2>
-    <p>This photo was taken somewhere between 5 and 7AM. Some weird instinct in me woke me up particularly early that day, so I decided to check out the sunrise. No regrets.</p>
+    <img class="img-responsive" alt="" src="photos/images/landscape/Places.jpg">  
   </div>
 
   <div class="col-xs-12 col-md-3 section-container-spacer">
-    <a href="photos/images/landscape/Places.jpg" data-lightbox="gallery2">
-    <img id="myImg" alt="" src="photos/images/landscape/Places.jpg"></a>
-    <h2>Philadelphia <Pt class="2"></Pt></h2>
-    <p>Another photo of the Philadelphia skyline, although somewhere closer to sunset. It was a particularly gloomy day, but sunset made everything look a little cooler.</p>
-  </div>
+    <img class="img-responsive" alt="" src="photos/images/landscape/Night.jpg">  
+  </div>-->
+</div>
+</div>
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+     masonryBuild();
+  });
+</script>
 
-  <div class="col-xs-12 col-md-3 section-container-spacer">
-    <a href="photos/images/landscape/Night.jpg" data-lightbox="gallery3">
-    <img id="myImg" alt="" src="photos/images/landscape/Night.jpg"></a>
-    <h2>Boathouse Row</h2>
-    <p>A late night bike ride turned into a 30 minute photoshoot of these beautiful boathouses. I have always explored alnog the Schuylkill River during the day, but this was my first time at night. I saw these boathouses along the river and knew I had to at least attempt to capture their beauty on camera.</p>
-  </div>
 </main>
 
 <script>
@@ -186,6 +204,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
   ga('send', 'pageview');
 </script>
 
---> <script type="text/javascript" src="./main.85741bff.js"></script></body>
+--><script type="text/javascript" src="./main.85741bff.js"></script></body>
 
 </html>

@@ -3811,13 +3811,16 @@ button.close{
 #myImg {
     border-radius: 0px;
     cursor: pointer;
-    transition: 0.2s;
+    transition: 0.7s;
+    -webkit-transform: translateZ(0);
+    width: calc(100% + .49px);
+    
 }
 
-#myImg:hover {opacity: 0.8;}
+#myImg:hover {opacity: 0.5;}
 .grid{
     width:100%;
-    margin-top:-11px
+    margin-top:-11px;
 }
 .grid-overlay{
     position:absolute;

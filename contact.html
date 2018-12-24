@@ -90,17 +90,20 @@
 
     </div>
     <div class="section-container-spacer">
-       <form name="contactform" action="send_form_email.php" class="reveal-content">
+       <form name="contactform" action="https://docs.google.com/forms/d/e/1FAIpQLSfoKprfiljK_msMpcdRPm9Z7j0L03pv94LkZQkw9g84J3DCoA/formResponse?" target="hidden_iframe" class="reveal-content">
           <div class="row">
             <div class="col-md-6">
               <div class="form-group">
-                <input type="email" class="form-control" id="email" placeholder="EMAIL">
+                <input type="name" class="form-control" name="entry.997120712" id="entry.997120712" placeholder="NAME">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" id="subject" placeholder="SUBJECT">
+                <input type="email" class="form-control" name="entry.804446213" id="entry.804446213" placeholder="EMAIL">
               </div>
               <div class="form-group">
-                <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+                <input type="text" class="form-control" name="entry.353939730" id="entry.353939730" placeholder="SUBJECT">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" id="entry.1764891405" name="entry.1764891405" rows="3" placeholder="Enter your message"></textarea>
               </div>
               <button type="submit" class="btn btn-primary btn-lg">Send</button>
             </div>
@@ -138,6 +141,8 @@
             </div>
           </div>
         </form>
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+        
     </div>
   </div>
 </div>
@@ -256,7 +261,14 @@ document.addEventListener("DOMContentLoaded", function (event) {
   navActivePage();
 });
 </script>
-
+<script src="assets/js/jquery.min.js"></script>
+<script type="text/javascript">var submitted=false;</script>
+<script type="text/javascript">
+$('#gform').on('submit', function(e) {
+  $('#gform *').fadeOut(2000);
+  $('#gform').prepend('Your submission has been processed...');
+  });
+</script>
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID 
 
 <script>

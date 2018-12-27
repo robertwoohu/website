@@ -3799,7 +3799,7 @@ button.close{
 #myImg:hover {opacity: 0.8;}
 .grid{
     width:100%;
-    margin-top:-11px
+    margin-top:-11px;
 }
 .grid-overlay{
     position:absolute;
@@ -3813,20 +3813,20 @@ button.close{
 }
 .grid-item,.grid-sizer{
     width:100%;
-    margin-bottom:5%
+    margin-bottom:0.3%;
 }
 @media (min-width:768px){
     .grid-item,.grid-sizer{
         width:49.5%
     }
 }
-@media (min-width:720px){
+@media (min-width:1200px){
     .grid-item,.grid-sizer{
-        width:28%
+        width:32.633%
     }
 }
 .gutter-sizer{
-    width:5%
+    width:.3%
 }
 .grid-item{
     position:relative;
@@ -3866,6 +3866,7 @@ button.close{
 }
 .grid-item:hover .project-description{
     opacity:1
+
 }
 .section-container-spacer{
     margin-bottom:30px

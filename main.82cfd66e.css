@@ -218,7 +218,7 @@ html{
     -webkit-tap-highlight-color:transparent
 }
 body{
-    font-family:Raleway-Thin,sans-serif;
+    font-family:Raleway-Extra-Light,sans-serif;
     font-size:16px;
     line-height:1.78;
     color:#555;
@@ -300,7 +300,7 @@ hr{
     cursor:pointer
 }
 .h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{
-    font-family:Raleway-Regular,sans-serif;
+    font-family:Raleway-Medium,sans-serif;
     font-weight:400;
     line-height:1.1;
     color:#000;
@@ -3952,7 +3952,7 @@ main{
 }
 .site-brand{
     color:#000;
-    font-family:Raleway-Regular,sans-serif;
+    font-family:Raleway-Medium,sans-serif;
     font-size:24px;
     display:block;
     -webkit-transition:all .2s linear;

@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Cabin:400,700|Source+Sans+Pro:400,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway&display=swap);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 /*! * Bootstrap v3.3.7 (http://getbootstrap.com) * Copyright 2011-2016 Twitter, Inc. * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
@@ -219,11 +219,12 @@ html{
     -webkit-tap-highlight-color:transparent
 }
 body{
-    font-family:Source Sans Pro,Helvetica,Arial,sans-serif;
-    font-size:14px;
+    font-family:Raleway-Light,sans-serif;
+    font-size:16px;
     line-height:1.78;
     color:#555;
-    background-color:#fff
+    background-color:#fff;
+    letter-spacing:1.5px;
 }
 button,input,select,textarea{
     font-family:inherit;
@@ -300,8 +301,8 @@ hr{
     cursor:pointer
 }
 .h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{
-    font-family:Helvetica,Arial,sans-serif;
-    font-weight:700;
+    font-family:Raleway-Medium,sans-serif;
+    /**font-weight:700;**/
     line-height:1.1;
     color:#000
 }
@@ -2540,7 +2541,7 @@ tbody.collapse.in{
     display:block
 }
 .nav>li>a{
-    padding:5px 0
+    padding:2px 0
 }
 .nav>li>a:focus,.nav>li>a:hover{
     text-decoration:none;
@@ -3790,13 +3791,6 @@ button.close{
         display:none!important
     }
 }
-#myImg {
-    border-radius: 0px;
-    cursor: pointer;
-    transition: 0.2s;
-}
-
-#myImg:hover {opacity: 0.8;}
 .grid{
     width:100%;
     margin-top:-11px;
@@ -3813,7 +3807,7 @@ button.close{
 }
 .grid-item,.grid-sizer{
     width:100%;
-    margin-bottom:0.3%;
+    margin-bottom:1%
 }
 @media (min-width:768px){
     .grid-item,.grid-sizer{
@@ -3826,7 +3820,7 @@ button.close{
     }
 }
 .gutter-sizer{
-    width:.3%
+    width:1%
 }
 .grid-item{
     position:relative;
@@ -3837,14 +3831,14 @@ button.close{
     -webkit-transition:all .3s linear;
     -o-transition:all .3s linear;
     transition:all .3s linear;
-    background:hsla(0,0%,100%,.5);
+    background:hsla(0,0%,100%,.7);
     position:absolute;
-    width:90%;
+    width:100%;
     top:0;
     bottom:0;
     left:0;
     right:0;
-    margin:5%;
+    margin:0;
     text-decoration:none
 }
 .grid-item .project-description .project-text-holder{
@@ -3943,28 +3937,32 @@ main{
     .sidebar{
         padding:30px;
         left:0;
-        top:0
+        top:0;
+        padding-right:5px;
     }
 }
 .site-header{
-    margin-bottom:30px;
-    overflow:hidden
+    margin-bottom:15px;
+    overflow:hidden;
+    position:relative;
 }
 .site-brand,.site-logo{
-    margin-bottom:6px
+    margin-bottom:0px;
+    opacity:1;
 }
 .site-brand{
     color:#000;
-    font-family:Cabin,Helvetica,Arial,sans-serif;
-    font-size:18px;
-    font-weight:700;
+    font-family:Raleway-Medium,sans-serif;
+    font-size:24px;
+    /**font-weight:700;**/
     display:block;
     -webkit-transition:all .2s linear;
     -o-transition:all .2s linear;
     transition:all .2s linear
 }
 .site-brand:hover{
-    text-decoration:none
+    text-decoration:none;
+    opacity:0.5;
 }
 .nav-footer{
     position:absolute;
@@ -4022,5 +4020,13 @@ main{
 .list-icons li{
     float:left;
     margin-right:5px
+}
+#myImg {
+    border-radius: 0px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#myImg:hover {opacity: 0.7;
 }
 /*# sourceMappingURL=main.85741bff.map*/

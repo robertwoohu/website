@@ -2,6 +2,16 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 /*! * Bootstrap v3.3.7 (http://getbootstrap.com) * Copyright 2011-2016 Twitter, Inc. * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+body, html{
+    height:100%;
+}
+.bg{
+    background-image:url('http://www.robertwhu.com/photos/images/landscape/philly-9542.jpg');
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
 html{
     font-family:sans-serif;
     -ms-text-size-adjust:100%;
@@ -208,11 +218,12 @@ html{
     -webkit-tap-highlight-color:transparent
 }
 body{
-    font-family:Source Sans Pro,Helvetica,Arial,sans-serif;
-    font-size:14px;
+    font-family:HelveticaNeue-Thin,sans-serif;
+    font-size:16px;
     line-height:1.78;
     color:#555;
-    background-color:#fff
+    background-color:#fff;
+    letter-spacing:1.5px;
 }
 button,input,select,textarea{
     font-family:inherit;
@@ -289,10 +300,11 @@ hr{
     cursor:pointer
 }
 .h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{
-    font-family:Cabin,Helvetica,Arial,sans-serif;
-    font-weight:700;
+    font-family:HelveticaNeue-Medium,sans-serif;
+    font-weight:400;
     line-height:1.1;
-    color:#000
+    color:#000;
+    letter-spacing:1px;
 }
 .h1 .small,.h1 small,.h2 .small,.h2 small,.h3 .small,.h3 small,.h4 .small,.h4 small,.h5 .small,.h5 small,.h6 .small,.h6 small,h1 .small,h1 small,h2 .small,h2 small,h3 .small,h3 small,h4 .small,h4 small,h5 .small,h5 small,h6 .small,h6 small{
     font-weight:400;
@@ -2529,7 +2541,7 @@ tbody.collapse.in{
     display:block
 }
 .nav>li>a{
-    padding:5px 0
+    padding:5px 0;
 }
 .nav>li>a:focus,.nav>li>a:hover{
     text-decoration:none;
@@ -3781,7 +3793,7 @@ button.close{
 }
 .grid{
     width:100%;
-    margin-top:-11px
+    margin-top:-11px;
 }
 .grid-overlay{
     position:absolute;
@@ -3795,7 +3807,7 @@ button.close{
 }
 .grid-item,.grid-sizer{
     width:100%;
-    margin-bottom:.25%
+    margin-bottom:1%
 }
 @media (min-width:768px){
     .grid-item,.grid-sizer{
@@ -3808,7 +3820,7 @@ button.close{
     }
 }
 .gutter-sizer{
-    width:.25%
+    width:1%
 }
 .grid-item{
     position:relative;
@@ -3819,14 +3831,14 @@ button.close{
     -webkit-transition:all .3s linear;
     -o-transition:all .3s linear;
     transition:all .3s linear;
-    background:hsla(0,0%,100%,.5);
+    background:hsla(0,0%,100%,.7);
     position:absolute;
-    width:90%;
+    width:100%;
     top:0;
     bottom:0;
     left:0;
     right:0;
-    margin:5%;
+    margin:0;
     text-decoration:none
 }
 .grid-item .project-description .project-text-holder{
@@ -3847,8 +3859,8 @@ button.close{
     padding:0
 }
 .grid-item:hover .project-description{
-    opacity:1
-
+    opacity:1;
+    filter:blur(0px);
 }
 .section-container-spacer{
     margin-bottom:30px
@@ -3913,7 +3925,7 @@ main{
     transition:left .2s linear;
     left:-240px;
     top:52px;
-    padding:20px
+    padding:20px;
 }
 .sidebar .navbar-collapse{
     padding:0
@@ -3925,28 +3937,31 @@ main{
     .sidebar{
         padding:30px;
         left:0;
-        top:0
+        top:0;
+        padding-right:0px;
     }
 }
 .site-header{
-    margin-bottom:30px;
-    overflow:hidden
+    margin-bottom:15px;
+    overflow:hidden;
+    position:relative;
 }
 .site-brand,.site-logo{
-    margin-bottom:6px
+    margin-bottom:6px;
+    opacity:1;
 }
 .site-brand{
     color:#000;
-    font-family:Cabin,Helvetica,Arial,sans-serif;
-    font-size:18px;
-    font-weight:700;
+    font-family:HelveticaNeue-Medium,sans-serif;
+    font-size:24px;
     display:block;
     -webkit-transition:all .2s linear;
     -o-transition:all .2s linear;
     transition:all .2s linear
 }
 .site-brand:hover{
-    text-decoration:none
+    text-decoration:none;
+    opacity:0.5;
 }
 .nav-footer{
     position:absolute;

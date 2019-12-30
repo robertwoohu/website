@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,700|Source+Sans+Pro:400,700);
+@import url(https://fonts.googleapis.com/css?family=Cabin:400,700|Source+Sans+Pro:400,700);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 /*! * Bootstrap v3.3.7 (http://getbootstrap.com) * Copyright 2011-2016 Twitter, Inc. * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
@@ -8,7 +9,8 @@ body, html{
 html{
     font-family:sans-serif;
     -ms-text-size-adjust:100%;
-    -webkit-text-size-adjust:100%
+    -webkit-text-size-adjust:100%;
+    scroll-behavior:smooth;
 }
 body{
     margin:0
@@ -45,6 +47,9 @@ dfn{
 h1{
     font-size:2em;
     margin:.67em 0
+}
+iframe{
+    position:center;
 }
 mark{
     background:#222;
@@ -300,12 +305,17 @@ hr{
 [role=button]{
     cursor:pointer
 }
-.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{
+.h1,.h2,.h3,.h5,.h6,h1,h2,h3,h5,h6{
     font-family:Raleway-Medium,sans-serif;
     /**font-weight:700;**/
     line-height:1.1;
     color:#000;
     font-weight:700;
+}
+.h4,h4{
+    font-family:Raleway-Medium,sans-serif;
+    color:#fff;
+    font-weight:300;
 }
 .h1 .small,.h1 small,.h2 .small,.h2 small,.h3 .small,.h3 small,.h4 .small,.h4 small,.h5 .small,.h5 small,.h6 .small,.h6 small,h1 .small,h1 small,h2 .small,h2 small,h3 .small,h3 small,h4 .small,h4 small,h5 .small,h5 small,h6 .small,h6 small{
     font-weight:400;
@@ -313,15 +323,15 @@ hr{
     color:#777
 }
 .h1,.h2,.h3,h1,h2,h3{
-    margin-top:10px;
+    margin-top:0px;
     margin-bottom:10px
 }
 .h1 .small,.h1 small,.h2 .small,.h2 small,.h3 .small,.h3 small,h1 .small,h1 small,h2 .small,h2 small,h3 .small,h3 small{
     font-size:65%
 }
 .h4,.h5,.h6,h4,h5,h6{
-    margin-top:12px;
-    margin-bottom:12px
+    margin-top:-5px;
+    margin-bottom:20px
 }
 .h4 .small,.h4 small,.h5 .small,.h5 small,.h6 .small,.h6 small,h4 .small,h4 small,h5 .small,h5 small,h6 .small,h6 small{
     font-size:75%
@@ -659,8 +669,10 @@ pre code{
     position:relative;
     text-align:center;
     min-height:1px;
-    padding-left:15px;
-    padding-right:15px
+    /**padding-left:10px;
+    padding-right:10px;**/
+    margin-left:0.5%;
+    margin-right:0.5%;
 }
 .col-xs-1,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.col-xs-10,.col-xs-11,.col-xs-12{
     position:center;
@@ -976,7 +988,7 @@ pre code{
         margin-left:100%
     }
 }
-@media (min-width:992px){
+@media (min-width:250px){
     .col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{
         float:left
     }
@@ -3810,14 +3822,19 @@ button.close{
     width:100%;
     margin-bottom:1.5%
 }
-@media (min-width:768px){
+@media (min-width:750px){
     .grid-item,.grid-sizer{
-        width:48.5%
+        width:32.3%
+    }
+}
+@media (min-width:900px){
+    .grid-item,.grid-sizer{
+        width:32.3%
     }
 }
 @media (min-width:1200px){
     .grid-item,.grid-sizer{
-        width:48.5%
+        width:32.333%
     }
 }
 .gutter-sizer{
@@ -3863,8 +3880,78 @@ button.close{
     opacity:1
 
 }
-.section-container-spacer{
-    margin-bottom:30px
+@media (min-width:750px){
+    .col-md-3{
+        width:49%
+    }
+}
+@media (min-width:900px){
+    .col-md-3{
+        width:32.3%
+    }
+}
+@media (min-width:1200px){
+    .col-md-3{
+        width:32.3%
+    }
+}
+.col-md-3{
+    margin-bottom:1%;
+}
+.col-md-3 h4{
+    transition:0.3s;
+    transition-delay: 0.15s;
+    font-weight:500;
+}
+.col-md-3 p{
+    opacity:0;
+    transition:0.3s;
+    transition-delay: 0.15s;
+    font-weight:200;
+}
+.col-md-3 .project-description{
+    opacity:1;
+    -webkit-transition:all .3s linear;
+    -o-transition:all .3s linear;
+    transition:all .3s linear;
+    background:hsla(0,0%,100%,0.0);
+    position:absolute;
+    width:100%;
+    top:0px;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:0;
+    text-decoration:none
+}
+.col-md-3 .project-description .project-text-holder{
+    display:table;
+    text-align:center;
+    vertical-align:bottom;
+    width:100%;
+    height:100%;
+    overflow:hidden
+}
+.col-md-3 .project-description .project-text-holder .project-text-inner{
+    display:table-cell;
+    text-align:center;
+    vertical-align:bottom;
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0
+}
+.col-md-3:hover .project-description{
+    opacity:1;
+    background:hsla(0,0%,25%,0.7);
+}
+.col-md-3:hover h4{
+    color:#;
+    /**background:hsla(0,0%,100%,0.3);**/
+}
+.col-md-3:hover p{
+    opacity:1;
+    /**background:hsla(0,0%,100%,0.3);**/
 }
 .btn{
     -webkit-transition:all .1s linear;

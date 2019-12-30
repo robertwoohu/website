@@ -33,7 +33,7 @@ body, html{
     background-size: cover; 
 }
 html{
-    font-family:Raleway,sans-serif;
+    font-family:Ralewaylight,sans-serif;
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%
 }
@@ -238,7 +238,7 @@ html{
     -webkit-tap-highlight-color:transparent
 }
 body{
-    font-family:Raleway-Light,sans-serif;
+    font-family:Ralewaylight,sans-serif;
     font-size:16px;
     line-height:1.78;
     color:#555;
@@ -320,8 +320,8 @@ hr{
     cursor:pointer
 }
 .h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{
-    font-family:Raleway-Light,sans-serif;
-    font-weight:200;
+    font-family:Ralewaylight,sans-serif;
+
     line-height:1.1;
     color:#000;
     letter-spacing:1px;
@@ -3972,7 +3972,7 @@ main{
 }
 .site-brand{
     color:#000;
-    font-family:Raleway-Medium,sans-serif;
+    font-family:Ralewaylight,sans-serif;
     font-size:24px;
     display:block;
     -webkit-transition:all .2s linear;

@@ -1,4 +1,24 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway&display=swap);
+@font-face {
+    font-family: 'ralewaylight';
+    src: url('./css/fonts/raleway-light-webfont.woff2') format('woff2'),
+         url('./css/fonts/raleway-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ralewaymedium';
+    src: url('./css/fonts/raleway-medium-webfont.woff2') format('woff2'),
+         url('./css/fonts/raleway-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('./css/fonts/raleway-regular-webfont.woff2') format('woff2'),
+         url('./css/fonts/raleway-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 /*! * Bootstrap v3.3.7 (http://getbootstrap.com) * Copyright 2011-2016 Twitter, Inc. * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
@@ -13,7 +33,7 @@ body, html{
     background-size: cover; 
 }
 html{
-    font-family:sans-serif;
+    font-family:Raleway,sans-serif;
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%
 }
@@ -300,8 +320,8 @@ hr{
     cursor:pointer
 }
 .h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{
-    font-family:Raleway-Medium,sans-serif;
-    font-weight:400;
+    font-family:Raleway-Light,sans-serif;
+    font-weight:200;
     line-height:1.1;
     color:#000;
     letter-spacing:1px;
@@ -3925,7 +3945,7 @@ main{
     transition:left .2s linear;
     left:-240px;
     top:52px;
-    padding:20px;
+    padding:20px
 }
 .sidebar .navbar-collapse{
     padding:0

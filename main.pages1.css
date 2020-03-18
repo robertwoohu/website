@@ -3988,8 +3988,8 @@ main{
 }
 .nav>li>a.active{
     font-family:Raleway,sans-serif;
-    font-weight:400;
-    color:#ff6360
+    font-weight:300;
+
 }
 .nav>li>a:hover{
     color:#ff6360

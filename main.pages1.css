@@ -3991,7 +3991,7 @@ main{
     color:#ff6360
 }
 .nav>li>a:hover{
-    color:#ffffff
+    color:#ff6360
 }
 .nav-footer-social-buttons{
     margin-bottom:0;
@@ -4042,6 +4042,6 @@ main{
     transition: 0.2s;
 }
 
-#myImg:hover {opacity: 1;
+#myImg:hover {opacity: 0.7;
 }
 /*# sourceMappingURL=main.85741bff.map*/

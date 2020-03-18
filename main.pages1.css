@@ -245,11 +245,11 @@ button,input,select,textarea{
     line-height:inherit
 }
 a{
-    color:#;
+    color:#ff6360;
     text-decoration:none
 }
 a:focus,a:hover{
-;
+    color:#ffffff;
     text-decoration:underline
 }
 a:focus{

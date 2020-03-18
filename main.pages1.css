@@ -3987,7 +3987,7 @@ main{
     color:#000
 }
 .nav>li>a.active{
-    font-weight:1100;
+    font-weight:300;
     color:#ff6360
 }
 .nav>li>a:hover{

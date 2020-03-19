@@ -3821,20 +3821,20 @@ button.close{
 }
 .grid-item,.grid-sizer{
     width:100%;
-    margin-bottom:1.5%
+    margin-bottom:0.5%
 }
 @media (min-width:768px){
     .grid-item,.grid-sizer{
-        width:48.5%
+        width:49%
     }
 }
 @media (min-width:1200px){
     .grid-item,.grid-sizer{
-        width:48.5%
+        width:49.5%
     }
 }
 .gutter-sizer{
-    width:1.5%
+    width:0.5%
 }
 .grid-item{
     position:relative;

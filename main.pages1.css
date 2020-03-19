@@ -3821,7 +3821,7 @@ button.close{
 }
 .grid-item,.grid-sizer{
     width:100%;
-    margin-bottom:0.5%
+    margin-bottom:1%
 }
 @media (min-width:768px){
     .grid-item,.grid-sizer{
@@ -3830,11 +3830,11 @@ button.close{
 }
 @media (min-width:1200px){
     .grid-item,.grid-sizer{
-        width:49.5%
+        width:49%
     }
 }
 .gutter-sizer{
-    width:0.5%
+    width:1%
 }
 .grid-item{
     position:relative;

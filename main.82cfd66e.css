@@ -6,13 +6,6 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'ralewaymedium';
-    src: url('./css/fonts/raleway-medium-webfont.woff2') format('woff2'),
-         url('./css/fonts/raleway-medium-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
     font-family: 'ralewayregular';
     src: url('./css/fonts/raleway-regular-webfont.woff2') format('woff2'),
          url('./css/fonts/raleway-regular-webfont.woff') format('woff');
@@ -3992,7 +3985,9 @@ main{
     color:#000
 }
 .nav>li>a.active{
-    font-weight:700
+    font-family:Raleway,sans-serif;
+    font-weight:500;
+    color:#ff6360
 }
 .nav>li>a:hover{
     color:#ff6360

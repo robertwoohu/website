@@ -3850,7 +3850,7 @@ button.close{
     }
 }
 .gutter-sizer{
-    width:1.5%
+    width:1.0%
 }
 .grid-item{
     position:relative;
@@ -3894,7 +3894,7 @@ button.close{
 }
 @media (min-width:750px){
     .col-md-3{
-        width:49%
+        width:49    %
     }
 }
 @media (min-width:900px){

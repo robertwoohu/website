@@ -663,9 +663,13 @@ pre code{
 .container-fluid:after{
     clear:both
 }
+.flex-container{
+    display:flex;
+    justify-content:center;
+}
 .row{
     margin-left:-15px;
-    margin-right:-15px
+    margin-right:-15px;
 }
 .row:after,.row:before{
     content:" ";
@@ -3889,17 +3893,17 @@ button.close{
     opacity:1
 
 }
+
+@media (min-width:500px){
+    .col-md-3{
+        width:99%
+    }
+}
 @media (min-width:750px){
     .col-md-3{
         width:49%
     }
 }
-/* @media (min-width:900px){
-    .col-md-3{
-        width:32.3%
-    }
-}
-*/
 @media (min-width:1200px){
     .col-md-3{
         width:24%

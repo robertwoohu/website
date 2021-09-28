@@ -3894,11 +3894,6 @@ button.close{
 
 }
 
-@media (min-width:500px){
-    .col-md-3{
-        width:99%
-    }
-}
 @media (min-width:750px){
     .col-md-3{
         width:49%

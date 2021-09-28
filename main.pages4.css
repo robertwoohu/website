@@ -844,7 +844,7 @@ pre code{
 }
 @media (min-width:768px){
     .col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12{
-        float:left
+        float:right
     }
     .col-sm-1{
         width:8.33333%
@@ -1011,7 +1011,7 @@ pre code{
         width:16.66667%
     }
     .col-md-3{
-        width:25%
+        width:100%
     }
     .col-md-4{
         width:33.33333%
@@ -3352,6 +3352,24 @@ a.badge:focus,a.badge:hover{
     height:100%;
     width:100%;
     border:0
+}
+.auto-resizable-iframe {
+  max-width: 900px;
+  margin: 0px auto;
+}
+
+.auto-resizable-iframe > div {
+  position: relative;
+  padding-top: 75%;
+  height: 0px;
+}
+
+.auto-resizable-iframe iframe {
+  position: absolute;
+  top: 0%;
+  left: 0px;
+  width: 100%;
+  height: 90%;
 }
 .embed-responsive-16by9{
     padding-bottom:56.25%

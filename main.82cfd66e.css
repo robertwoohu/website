@@ -3984,13 +3984,13 @@ main{
 .nav-footer a,.nav>li>a{
     color:#000
 }
-.nav>li>a:active{
+.nav>li>a.active{
     font-family:Raleway,sans-serif;
     font-weight:500;
-    color:#000000
+    color:#ff6360
 }
 .nav>li>a:hover{
-    color:#ffffff
+    color:#ff6360
 }
 .nav-footer-social-buttons{
     margin-bottom:0;

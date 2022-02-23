@@ -3986,10 +3986,10 @@ main{
 .nav-footer a,.nav>li>a{
     color:#000
 }
-.nav>li>a.active{
+.nav>li>a:active{
     font-family:Raleway,sans-serif;
     font-weight:500;
-    color:#ff6360
+    color:#ffffff
 }
 .nav>li>a:hover{
     color:#ff6360

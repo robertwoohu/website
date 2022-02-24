@@ -4073,7 +4073,9 @@ main{
     color:#000
 }
 .nav>li>a.active{
-    font-weight:700
+    font-family:Raleway,sans-serif;
+    font-weight:100;
+    color:#009c9f
 }
 .nav>li>a:hover{
     color:#ff6360

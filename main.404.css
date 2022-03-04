@@ -23,7 +23,7 @@ html, body {
 }
 
 body {
-    background: linear-gradient(420deg, #202020, #202020, #FF7A5E, #FF5430, #F61CFF);
+    background: linear-gradient(421deg, #202020, #202020, #FF7A5E, #FF5430, #F61CFF);
     background-size: 400% 400%;
     animation: gradient 20s ease infinite;
 }

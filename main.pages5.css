@@ -3891,7 +3891,7 @@ button.close{
     display:inline-block;
     line-height:32px;
     font-size:15px;
-    text-align:center
+    text-align:left
 }
 .form-control{
     box-shadow:none

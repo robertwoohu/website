@@ -18,8 +18,8 @@
     /*! background: linear-gradient(420deg, #FF7A5E, #FFDB91, #B5FF91, #5EFFCB); */
 
 html, body {
-  width: 100%;
-  height:100%;
+  width: absolute;
+  height: absolute;
 }
 
 body {

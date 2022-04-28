@@ -3877,7 +3877,7 @@ button.close{
 
 }
 .section-container-spacer{
-    margin-bottom:30px
+    margin-bottom:0px
 }
 .btn{
     -webkit-transition:all .1s linear;
@@ -3991,11 +3991,11 @@ main{
     font-weight:100;
     color:#ff6360
 }
-li>a.active{
+/*li>a.active{
     font-family:Raleway,sans-serif;
     font-weight:100;
     color:#ff6360
-}
+}*/
 .nav>li>a:hover{
     color:#ff6360
 }
